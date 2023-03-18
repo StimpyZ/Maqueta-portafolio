@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>stimp</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span class="logo-fav">stimp
+                <img src="img/favicon.png" alt="favicon">
+            </span>
+        </a>
+
+        <input type="checkbox" id="menu-navbar">
+        <label for="menu-navbar" class="fa fa-bars"></label>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#about-me">About me</a>
+            <a href="#projects">Proyectos</a>
+            <a href="#contact-me">Contact me</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content-home">
+            <h3>Hi, I'm <span>stimp</span></h3>
+            <p>A Web developer</p>
+            <a class="button" href="#about-me">
+                About Me <i class="fa-solid fa-user"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+
+        <div class="image">
+            <img class="stimp" src="img/principal.png" alt="inicio_stimp">
+        </div>
+
+    </section>
+
+    <section id="about-me" class="about-me">
+        <div class="content">
+            <h1 class="heading">About Me</h1>
+            <p><span>Hi, I'm stimp a web developer.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti
+                repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            24/05/2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            2555 5454545
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            cw@example.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            123 Colombia
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>VIDEOGAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a class="button">
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="content-projects">
+            <h1 class="projects-section-header">These are some of my projects</h1>
+
+            <div class="projects-grid">
+                <a id="card" href="https://github.com/StimpyZ/Codecamp" target="_blank" class="project project-tile">
+                    <img class="project-image" src="img/project1.png" alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        FreeCodeCamp
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a id="card" href="https://github.com/StimpyZ/pokedex" target="_blank" class="project project-tile">
+                    <img class="project-image" src="img/project2.png" alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Pokédex
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a id="card" href="https://github.com/StimpyZ/login-page-insta" target="_blank"
+                    class="project project-tile">
+                    <img class="project-image" src="img/project3.png" alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Login Page Insta
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a id="card" href="https://github.com/StimpyZ/CrudWithDjango" target="_blank"
+                    class="project project-tile">
+                    <img class="project-image" src="img/project4.png" alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        CRUD With Django
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a id="card" href="https://github.com/StimpyZ/Django-dashboard" target="_blank"
+                    class="project project-tile">
+                    <img class="project-image" src="img/project5.png" alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Dashboard With Django
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+                <a id="card" href="https://github.com/StimpyZ/calculator" target="_blank" class="project project-tile">
+                    <img class="project-image" src="img/project6.png" alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Calculator
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                </a>
+            </div>
+
+            <a href="https://github.com/StimpyZ" class="button">
+                Show All <i class="fa-solid fa-arrow-right"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact-me" class="contact-me">
+        <div class="content">
+            <h1>Contact Me</h1>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Telephone Number">
+                    <input type="text" placeholder="E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <a href="#" class="button">
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </a>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Caracoles
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Call-me: 2384 - 4343443
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: equisde@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up">
+            </i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
